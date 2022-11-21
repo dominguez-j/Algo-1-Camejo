@@ -1,0 +1,14 @@
+#ifndef __CODIGO_ERROR_H__
+#define __CODIGO_ERROR_H__
+
+#define NO_HAY_ERROR 0
+#define NUMERO_AYUDA 1
+#define ERROR_ABRIR_ARCHIVO -1
+#define ERROR_LISTAR -2
+#define ERROR_AGREGAR -3
+#define ERROR_CONTACTAR -4
+#define ERROR_MODIFICAR -5
+#define ERROR_ID_EXISTENTE -6
+#define ERROR_INGRESO_INVALIDO -7
+
+#endif /*__CODIGO_ERROR_H__*/

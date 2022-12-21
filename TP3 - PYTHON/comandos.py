@@ -1,0 +1,5 @@
+AGREGAR = "agregar"
+MODIFICAR = "modificar"
+LISTAR = "listar"
+AYUDA = "ayuda"
+CONTACTAR = "contactar"

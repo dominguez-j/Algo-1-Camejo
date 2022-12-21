@@ -1,0 +1,22 @@
+#PRE: -
+#POS: Muestra el manual de ayuda al usuario.
+def ayuda():
+    print("\n-------AYUDA--------\n")
+    print("Lista de comandos:")
+    print("(1) LISTAR: Te muestra la lista de superheroes")
+    print("Comando: python caza.py listar archivo.csv | EJEMPLO\n")
+    print("(2) CONTACTAR: Contactas a un superheroe mediante su ID")
+    print("Comando: python caza.py contactar ID archivo.csv | EJEMPLO\n")
+    print("(3) MODIFICAR: Modificar los valores de un superheroe desde su id(existente), cambiandole su edad u estado")
+    print("Comando: python caza.py modificar ID EDAD ESTADO archivo.csv | EJEMPLO\n")
+    print("(4) AGREGAR: Añadis un nuevo superheroe a la lista, la id no puede repetirse")
+    print("Comando: python caza.py agregar ID NOMBRE EDAD ESTADO archivo.csv | EJEMPLO\n")
+    print("(5) AYUDA: I need help!!")
+    print("Comando: python caza.py ayuda | EJEMPLO\n")
+    print("---------------------\n")
+    print("El archivo tiene que tener extension .csv")
+    print("ID: Numero entero positivo, la id es única")
+    print("NOMBRE: Como mucho 50 caracteres")
+    print("EDAD: Numero entre 1 y 100 (incluidos)")
+    print("ESTADO: Estado actual de superheroe. vivo o muerto\n")
+    print("----FIN DE AYUDA----\n")
